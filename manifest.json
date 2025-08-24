@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "IP Lookup Extension",
+    "version": "1.0",
+    "description": "右键菜单中添加一个选项以查询 IP 地址。",
+    "permissions": [
+      "contextMenus",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
